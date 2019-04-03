@@ -12,6 +12,9 @@ namespace Tetris
 {
     public partial class Form1 : Form
     {
+
+        Game game;
+
         public Form1()
         {
             InitializeComponent();
@@ -64,7 +67,8 @@ namespace Tetris
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-
+            game = new Game(blocksDataGrid);
+            game.start();
         }
 
         private void Form1_Shown(object sender, EventArgs e)

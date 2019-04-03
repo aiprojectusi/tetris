@@ -46,7 +46,7 @@
             this.blocksDataGrid.Location = new System.Drawing.Point(12, 12);
             this.blocksDataGrid.Name = "blocksDataGrid";
             this.blocksDataGrid.ReadOnly = true;
-            this.blocksDataGrid.Size = new System.Drawing.Size(210, 470);
+            this.blocksDataGrid.Size = new System.Drawing.Size(210, 473);
             this.blocksDataGrid.TabIndex = 0;
             // 
             // lblScore
@@ -69,12 +69,12 @@
             this.nextGridView.Location = new System.Drawing.Point(234, 12);
             this.nextGridView.Name = "nextGridView";
             this.nextGridView.ReadOnly = true;
-            this.nextGridView.Size = new System.Drawing.Size(123, 103);
+            this.nextGridView.Size = new System.Drawing.Size(109, 107);
             this.nextGridView.TabIndex = 2;
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(254, 398);
+            this.btnStart.Location = new System.Drawing.Point(250, 398);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 3;
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 497);
+            this.ClientSize = new System.Drawing.Size(352, 497);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.nextGridView);
             this.Controls.Add(this.lblScore);

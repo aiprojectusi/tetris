@@ -75,5 +75,29 @@ namespace Tetris
         public int[,] L_Tetromino_270 = new int[3, 2] {{1,1},    // * * 
                                                        {0,1},    //   *
                                                        {0,1 }};  //   *
+
+        public int[,] randomBlock()
+        {
+            Random rand = new Random();
+            int number = rand.Next(0, 7);
+            switch(number)
+            {
+                case 0:
+                    return O_Tetromino;
+                case 1:
+                    return I_Tetromino_0;
+                case 2:
+                    return T_Tetromino_0;
+                case 3:
+                    return S_Tetromino_0;
+                case 4:
+                    return Z_Tetromino_0;
+                case 5:
+                    return J_Tetromino_0;
+                case 6:
+                    return L_Tetromino_0;
+            }
+            return null;
+        }
     }
 }
